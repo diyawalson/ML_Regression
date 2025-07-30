@@ -1,41 +1,57 @@
-**🏡 House Price Prediction using Machine Learning**
+**📘 Regression Projects Overview**
 
-This project focuses on predicting house prices using supervised machine learning regression techniques. Leveraging a structured dataset containing key real estate attributes like location, number of bedrooms and bathrooms, square footage, and more, the goal is to build accurate models that estimate house prices effectively.
+This repository includes a collection of machine learning projects focused on regression analysis, where the goal is to predict continuous numeric outcomes based on input features. Each project follows a structured approach involving data preprocessing, exploratory data analysis (EDA), model building, and evaluation.
 
-**📊 Project Highlights:**
+**🔧 Common Pipeline Across Projects:**
 
-**✅ Data Preprocessing:**
+Data Cleaning & Preprocessing
 
-Handled missing values, duplicates, and outliers
+Handling missing values, duplicates, and outliers
 
-Encoded categorical variables
+Encoding categorical variables and scaling numeric features
 
-Scaled numerical features to improve model performance
+Exploratory Data Analysis (EDA)
 
-**📈 Exploratory Data Analysis (EDA):**
+Understanding distributions, trends, and feature relationships
 
-Uncovered trends and patterns using graphs and correlation matrices
+Correlation analysis to identify key predictors
 
-Identified important factors affecting house prices
+Model Training
 
-**🤖 Model Building:**
-
-Trained multiple regression models including:
+**Supervised regression algorithms such as:**
 
 Linear Regression
 
-Decision Tree Regressor
+Ridge and Lasso Regression
 
-Random Forest Regressor
+Decision Tree Regression
 
-Compared models using metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score
+Random Forest Regression
 
-**🧠 Model Evaluation & Insights:**
+Gradient Boosting (e.g., XGBoost, LightGBM)
 
-Assessed performance across models and selected the best one
+**Model Evaluation:**
 
-Provided interpretation of key features influencing house pricing
+Metrics used:
+
+Mean Absolute Error (MAE)
+
+Mean Squared Error (MSE)
+
+Root Mean Squared Error (RMSE)
+
+Root Absolute Percentage Error (MAPE)
+
+R² Score
+
+**Model comparison and selection based on performance:**
+
+Interpretation & Insights
+
+Feature importance analysis
+
+Practical use cases for each model
 
 **🎯 Objective:**
 
-The main objective is to create a robust and interpretable machine learning pipeline that helps users or stakeholders estimate property prices based on input features. This project can serve as a foundation for building real estate pricing tools or integrating predictive analytics into housing platforms.
+To develop accurate, reliable, and interpretable machine learning models for real-world regression problems. These projects are designed to demonstrate end-to-end workflows that can be adapted for business applications, research, or production systems.
